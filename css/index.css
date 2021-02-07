@@ -1,0 +1,351 @@
+@charset "UTF-8";
+html {
+  font-size: 68%; }
+
+body {
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  margin: 0; }
+
+.main-header {
+  padding: 0;
+  margin: 0px 20px; }
+  .main-header h1 {
+    margin: 45px 0 0; }
+    .main-header h1 a {
+      font-size: 30px;
+      text-decoration: none;
+      color: black; }
+  .main-header p {
+    margin: 4px 0 0;
+    padding: 0;
+    color: #777;
+    font-size: 15px; }
+
+.menu {
+  display: none;
+  padding: 0 40px; }
+  .menu ul {
+    padding: 0;
+    display: flex; }
+    .menu ul li {
+      list-style: none;
+      margin: 0 38px 0 0; }
+      .menu ul li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 1.5rem; }
+    .menu ul li:last-child {
+      margin: 0 0 0 auto; }
+
+.sub-header {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px; }
+  .sub-header__images {
+    margin: 59px 0 0; }
+    .sub-header__images--image {
+      width: 100%;
+      max-width: 740px;
+      height: auto; }
+  .sub-header p {
+    margin: 58px 20px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+    color: #777;
+    font-size: 23px;
+    line-height: 1.8; }
+
+main {
+  padding: 0;
+  margin: 0px 20px;
+  border-top: 1px; }
+
+.wrap time a {
+  padding: 0;
+  margin: 10px 0 0;
+  font-size: 1.3rem;
+  color: #999;
+  text-decoration: none; }
+.wrap h1 {
+  margin: 5px 0 20px; }
+  .wrap h1 a {
+    padding: 0;
+    font-size: 1.75rem;
+    color: #111;
+    text-decoration: none;
+    line-height: 2.22rem; }
+.wrap p {
+  padding: 0;
+  margin: 0 0 60px;
+  font-size: 1.3rem;
+  color: #666;
+  line-height: 1.8; }
+
+.button__1, .button__2, .button__3, .button__prev {
+  border: 1px solid #e6e6e6;
+  padding: 10px 18px;
+  margin: 0 0 70px;
+  background-color: #fff; }
+  .button__1 a, .button__2 a, .button__3 a, .button__prev a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Serif JP', serif; }
+    .button__1 a__gt, .button__2 a__gt, .button__3 a__gt, .button__prev a__gt {
+      font-size: 0.3rem; }
+.button__1, .button__2, .button__3 {
+  display: none; }
+.button__1 {
+  background-color: #e6e6e6; }
+  .button__1 a {
+    font-weight: bold; }
+
+.prof {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 60px 0; }
+  .prof__info__wrap {
+    width: 200px;
+    display: flex;
+    justify-content: space-between; }
+    .prof__info__wrap figure {
+      margin: 0;
+      padding: 0; }
+      .prof__info__wrap figure img {
+        width: 100px;
+        height: auto;
+        border-radius: 50%; }
+    .prof__info__wrap--name {
+      padding: 12px 3px 0 0; }
+      .prof__info__wrap--name h1 {
+        font-size: 1.4rem; }
+      .prof__info__wrap--name ul {
+        justify-content: space-between;
+        display: flex;
+        margin: 0;
+        padding: 0; }
+        .prof__info__wrap--name ul li {
+          list-style: none;
+          color: #999; }
+    .prof__info__wrap--text1 {
+      margin: 14px 0 0;
+      padding: 3px 0 0;
+      color: #777;
+      font-size: 1.3rem;
+      line-height: 1.6; }
+  .prof__sub-info--title1 {
+    padding: 0;
+    margin: 0 0 0;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    color: #777; }
+  .prof__sub-info--text2 {
+    padding: 0;
+    margin: 30px 0 0;
+    font-size: 1.2rem;
+    color: #777; }
+  .prof__posts {
+    margin: 150px 0 0; }
+    .prof__posts h2 {
+      margin: 0 0 30px;
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem; }
+    .prof__posts ul {
+      margin: 0 0 30px;
+      padding: 0; }
+      .prof__posts ul li {
+        list-style: none; }
+        .prof__posts ul li a {
+          text-decoration: none;
+          font-size: 1.3rem;
+          color: #777;
+          display: inline-block;
+          margin: 10px 0 10px;
+          border-bottom: 1px solid #e6e6e6; }
+      .prof__posts ul time {
+        font-size: 1rem; }
+    .prof__posts time {
+      color: #999; }
+  .prof__category h2 {
+    margin: 70px 0 20px;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem; }
+  .prof__category ul {
+    margin: 0;
+    padding: 0; }
+    .prof__category ul li {
+      list-style: none; }
+      .prof__category ul li a {
+        color: #888;
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: #777;
+        display: inline-block;
+        margin: 8px 0;
+        border-bottom: 1px solid #e6e6e6; }
+  .prof__category input {
+    padding: 0 0 0 5px;
+    color: #888;
+    margin: 50px 0 0;
+    width: 100%;
+    max-width: 320px;
+    height: 35px;
+    border: 0;
+    box-shadow: 0 0 1px; }
+
+footer {
+  padding: 50px 0 40px;
+  margin: 0px 20px; }
+  footer .sns {
+    width: 100px; }
+    footer .sns ul {
+      margin: 0 0 30px;
+      padding: 0;
+      display: flex;
+      justify-content: space-between; }
+      footer .sns ul li {
+        list-style: none;
+        color: #999; }
+  footer p {
+    letter-spacing: 0.1rem;
+    color: #888; }
+
+@media screen and (min-width: 980px) {
+  header {
+    margin: 0 auto; }
+    header .flex {
+      margin: 60px auto 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      min-width: 960px; }
+      header .flex .main-header {
+        margin: 0; }
+        header .flex .main-header h1 {
+          margin: 0; }
+    header .menu ul {
+      margin: 0; }
+    header .sub-header {
+      min-width: 960px; }
+      header .sub-header__images {
+        margin: 0 auto; }
+        header .sub-header__images--image {
+          min-width: 960px;
+          height: auto; }
+      header .sub-header p {
+        min-width: 960px;
+        margin: 80px auto; }
+
+  main {
+    min-width: 960px;
+    margin: 0 auto; }
+    main .contents .wrap {
+      display: flex;
+      justify-content: space-between; }
+      main .contents .wrap time {
+        min-width: 200px;
+        margin: 0 100px 0 0; }
+      main .contents .wrap p {
+        font-size: 1.52rem; }
+
+  .button {
+    justify-content: space-between;
+    text-align: center; }
+
+  .prof {
+    display: flex;
+    justify-content: space-between;
+    min-width: 960px;
+    height: 300px; }
+    .prof__info, .prof__sub-info, .prof__posts, .prof__category {
+      max-width: 200px; }
+    .prof__sub-info--text2 {
+      font-size: 1.55rem; }
+    .prof__posts {
+      margin: 0; }
+    .prof__category h2 {
+      margin-top: 0; }
+
+  footer {
+    display: flex;
+    align-items: center;
+    min-width: 960px; }
+    footer p {
+      margin: 0 auto; } }
+@media screen and (min-width: 783px) {
+  .flex {
+    max-width: 740px;
+    margin: 0 auto; }
+    .flex .main-header h1 a {
+      font-size: 3.3rem; }
+    .flex .main-header p {
+      font-size: 1.7rem; }
+    .flex .menu {
+      display: block;
+      padding: 0 20px; }
+
+  .sub-header {
+    max-width: 740px;
+    margin: 0 auto; }
+    .sub-header p {
+      font-size: 2.5rem; }
+
+  main {
+    max-width: 700px;
+    margin: 0 auto; }
+    main .wrap time a {
+      font-size: 1.6rem; }
+    main .wrap h1 {
+      margin: 12px 0 20px; }
+      main .wrap h1 a {
+        font-size: 2rem; }
+    main .wrap p {
+      font-size: 1.8rem; }
+    main .prof__info__wrap {
+      margin: 15px 0 0; }
+      main .prof__info__wrap--name {
+        margin: 10px 0 0 24px; }
+        main .prof__info__wrap--name h1 {
+          margin: 0;
+          width: 200px;
+          font-size: 1.7rem; }
+        main .prof__info__wrap--name ul {
+          margin: 15px 115px 0 0; }
+      main .prof__info__wrap--text1 {
+        font-size: 1.55rem; }
+      main .prof__info__wrap--title {
+        margin: 75px 0 30px;
+        font-size: 1.4rem; }
+      main .prof__info__wrap--text2 {
+        font-size: 1.47rem; }
+    main .prof__posts h2 {
+      font-size: 1.3rem;
+      margin: 0 0 20px; }
+    main .prof__posts ul li a {
+      font-size: 1.6rem; }
+    main .prof__posts time {
+      font-size: 1.3rem; }
+    main .prof__category h2 {
+      font-size: 1.3rem; }
+    main .prof__category ul li a {
+      font-size: 1.6rem; }
+    main .prof__category form input {
+      margin: 90px 0 0;
+      height: 40px;
+      font-size: 1.5rem;
+      padding: 0 0 0 15px; }
+
+  footer {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 0 60px; }
+    footer p {
+      font-size: 1.3rem;
+      letter-spacing: 1px; } }
+@media screen and (min-width: 740px) {
+  .sub-header__images {
+    margin: 69px 20px 0; } }
+@media screen and (min-width: 640px) {
+  .button__1, .button__2, .button__3 {
+    display: inline; } }
+
+/*# sourceMappingURL=index.css.map */
